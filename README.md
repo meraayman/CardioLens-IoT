@@ -270,38 +270,6 @@ See [`iot/README.md`](iot/README.md) for details on each IoT component.
 
 ---
 
-## Limitations and roadmap
-
-- **Single dataset.** Performance on ECGs from other hospitals, devices or scanners has not been tested yet.
-- **Small test set** (140 images); the 95% confidence interval for accuracy is 88.2–96.6%.
-- **Duplicate files.** The public dataset contains byte-identical images; 121 training images have an exact copy in the validation or test set. We kept the dataset as distributed for comparability with prior work.
-- **IoT layer.** The cloud API and edge client are runnable reference implementations; the routing results come from a simplified simulation. End-to-end latency and energy have not been measured on real hardware.
-
-In progress ([`notebooks/benchmark_experiments.ipynb`](notebooks/benchmark_experiments.ipynb)):
-- [ ] Baselines (ResNet50, MobileNetV2, DenseNet121) under both processing orders
-- [ ] Repeated runs over 5 seeds (mean ± standard deviation)
-- [ ] Evaluation on the de-duplicated dataset
-- [ ] Deployment on real IoT hardware
-
----
-
-## Citation
-
-A paper describing this work is in preparation. Until it is published, please cite the repository:
-
-```bibtex
-@software{awadallah2026cardiolens,
-  author = {Awadallah, Amira},
-  title  = {CardioLens-IoT: Explainable 12-Lead ECG Image Classification for IoT-Based Cardiac Monitoring},
-  year   = {2026},
-  url    = {https://github.com/<your-username>/cardiolens-iot}
-}
-```
-
-Please also cite the dataset:
-
-> A. H. Khan and M. Hussain, "ECG Images dataset of Cardiac Patients," Mendeley Data, V2. doi: [10.17632/gwbz3fsgp8.2](https://doi.org/10.17632/gwbz3fsgp8.2)
-
 ## License
 
 Code is released under the [MIT License](LICENSE). The dataset is **not** included in this repository and is subject to its own license on Mendeley Data.
@@ -309,7 +277,7 @@ Code is released under the [MIT License](LICENSE). The dataset is **not** includ
 ## Author
 
 **Amira Awadallah**, Department of Computer Engineering, The French University in Cairo, Egypt
-📧 amira.ayman@ufe.edu.eg
+ amira.ayman@ufe.edu.eg
 
 ## Acknowledgments
 
