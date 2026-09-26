@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CardioLens-IoT: Explainable 12-Lead ECG Image Classification for IoT-Based Cardiac Monitoring"
+authors:
+  - family-names: Awadallah
+    given-names: Amira
+    email: amira.ayman@ufe.edu.eg
+    affiliation: "Department of Computer Engineering, The French University in Cairo, Egypt"
+version: 1.0.0
+date-released: 2026-09-26
+license: MIT
+keywords:
+  - ECG
+  - deep learning
+  - EfficientNet
+  - Internet of Things
+  - explainable AI
+  - myocardial infarction

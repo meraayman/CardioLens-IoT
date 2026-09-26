@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models (download separately)
+data/raw/
+models/*.keras
+models/*.h5
+models/*.tflite
+
+# Outputs
+outputs/
+figures.zip
+records.jsonl
+gradcam.png
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

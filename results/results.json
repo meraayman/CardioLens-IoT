@@ -1,0 +1,82 @@
+{
+  "training_time_min": 17.35,
+  "n_images": 928,
+  "per_class_counts": [
+    233,
+    172,
+    239,
+    284
+  ],
+  "split_sizes": {
+    "train_original": 649,
+    "train_after_aug": 2596,
+    "val": 139,
+    "test": 140
+  },
+  "test_accuracy": 0.9357142857142857,
+  "macro_f1": 0.9322155175813712,
+  "macro_auc": 0.9938792254419445,
+  "cohen_kappa": 0.9136039495337356,
+  "per_class": {
+    "Abnormal_Heartbeat": {
+      "precision": 0.918918918918919,
+      "recall_sensitivity": 0.9714285714285714,
+      "specificity": 0.9714285714285714,
+      "f1": 0.9444444444444444,
+      "support": 35
+    },
+    "MI_history": {
+      "precision": 0.8846153846153846,
+      "recall_sensitivity": 0.8846153846153846,
+      "specificity": 0.9736842105263158,
+      "f1": 0.8846153846153846,
+      "support": 26
+    },
+    "Myocardial_Infarction": {
+      "precision": 0.9473684210526315,
+      "recall_sensitivity": 1.0,
+      "specificity": 0.9807692307692307,
+      "f1": 0.972972972972973,
+      "support": 36
+    },
+    "Normal": {
+      "precision": 0.9743589743589743,
+      "recall_sensitivity": 0.8837209302325582,
+      "specificity": 0.9896907216494846,
+      "f1": 0.926829268292683,
+      "support": 43
+    }
+  },
+  "confusion_matrix": [
+    [
+      34,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      23,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      36,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      38
+    ]
+  ],
+  "epochs_total": 58,
+  "fine_tune_start_epoch": 20,
+  "params_total": 4054695,
+  "keras_model_MB": 59.59,
+  "inference_ms_per_image": 362.47,
+  "device": "GPU"
+}
