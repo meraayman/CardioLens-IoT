@@ -2,7 +2,7 @@
 
 # CardioLens-IoT
 
-**Explainable 12-lead ECG image classification for IoT-based cardiac monitoring**
+**Explainable deep learning for 12-lead ECG analysis in IoT-based cardiac monitoring**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
