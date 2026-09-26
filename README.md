@@ -36,9 +36,6 @@ CardioLens-IoT is an end-to-end cardiac monitoring system. ECG data travel from 
 - [What makes CardioLens-IoT different](#what-makes-cardiolens-iot-different)
 - [Repository structure](#repository-structure)
 - [Getting started](#getting-started)
-- [Limitations and roadmap](#limitations-and-roadmap)
-- [Citation](#citation)
-
 ---
 
 ## System architecture
